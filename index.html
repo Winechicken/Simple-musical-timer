@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>timer test</title>
+  <link rel="stylesheet" href="css.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Junge&family=Kalam&family=Poppins&family=Rock+Salt&display=swap" rel="stylesheet"></head>
+
+</head>
+<body>
+  <h3 id="endingWord">Time's UP!</h3>
+  <p id="timerDisplay"></p>
+  <button id="playBtn"><img id="playImg" src="play-grey.png" alt=""></button>
+  <div class="sideBtns">
+    <button class="selectBtn" id="threeMin" value="180">3 min</button>
+    <button class="selectBtn" id="fiveMin" value="300">5 min</button>
+    <button class="selectBtn" id="tenMin" value="600">10 min</button>
+    <button class="selectBtn" id="twentyMin" value="1200">20 min</button>
+    <button class="selectBtn" id="twFiveMin" value="1500">25 min</button>
+  </div>
+  <video loop defaultMuted playsinline id="backVideo">
+    <source src="above.mp4" type="video/mp4">
+  </video>
+  <audio id="sound" loop>
+    <source src="Meditation2.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="js.js"></script>
+</body>
+</html>
